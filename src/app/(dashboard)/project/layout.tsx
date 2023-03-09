@@ -1,12 +1,12 @@
 import "@/styles/global.css";
-import { Inter } from "@next/font/google";
-import Sidebar from "@/components/Sidebar";
+// import { Inter } from "@next/font/google";
+// import Sidebar from "@/components/Sidebar";
 import clsx from "clsx";
 import GlassPane from "@/components/GlassPane";
 
-const inter = Inter({
-  variable: "--font-inter",
-});
+// const inter = Inter({
+//   variable: "--font-inter",
+// });
 
 export default function DashboardRootLayout({ children }) {
   return (
