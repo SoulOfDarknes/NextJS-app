@@ -9,7 +9,7 @@ import Button from "./Button";
 import Input from "./Input";
 
 const registerContent = {
-  linkUrl: "/signin",
+  linkUrl: "/sign-in",
   linkText: "Already have an account?",
   header: "Create a new Account",
   subheader: "Just a few things to get started",
@@ -26,7 +26,7 @@ const signinContent = {
 
 const initial = { email: "", password: "", firstName: "", lastName: "" };
 
-export default function AuthForm({ mode }: { mode: "register" | "signin" }) {
+export default function AuthForm({ mode }: { mode: "register" | "sign-in" }) {
   const [formState, setFormState] = useState({ ...initial });
   const [error, setError] = useState("");
 
