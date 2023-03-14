@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .glass {
-  filter: blur(16px) saturate(200%);
+  filter: blur(0px) saturate(200%);
 }
 @layer base {
   [data-nextjs-scroll-focus-boundary] {
