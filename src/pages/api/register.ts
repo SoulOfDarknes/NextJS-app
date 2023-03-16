@@ -26,7 +26,7 @@ export default async function register(
         maxAge: 60 * 60 * 24 * 7,
       })
     );
-    res.status(201);
+    res.status(200);
     res.end();
   } else {
     res.status(400);

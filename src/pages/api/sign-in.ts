@@ -32,14 +32,14 @@ export default async function signin(
           maxAge: 60 * 60 * 24 * 7,
         })
       );
-      res.status(201);
+      res.status(200);
       res.end();
     } else {
       res.status(401);
       res.json({ error: "Invalid login" });
     }
   } else {
-    res.status(400);
+    res.status(405);
     res.end();
   }
 }
